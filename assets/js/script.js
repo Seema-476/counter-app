@@ -23,5 +23,6 @@ function save() {
     } else {
         value.innerHTML = value.innerHTML + "," + counter;
     }
+    document.getElementById('counter').innerHTML = counter = 0;
 }
 
